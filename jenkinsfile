@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("pavan1184/angularapp-0")
+        app = docker.build("pavan1184/angularapps")
     }
 
     stage('Test image') {
