@@ -3,7 +3,13 @@ FROM ubuntu
 FROM node:7-onbuild
 
 # set maintainer
-LABEL maintainer "akv.pavan@gmail.com"
+LABEL maintainer "pavan9991kumar@gmail.com"
+
+RUN npm install
+
+RUN mkdir -p/usr/src/app
+
+COPY . .
 
 # set a health check
 HEALTHCHECK --interval=5s \
