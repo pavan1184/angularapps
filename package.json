@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pavan1184/AngularApp-0"
+    "url": "https://github.com/pavan1184/AngularApps"
   },
   "keywords": [
     "node",
     "docker",
     "dockerfile"
   ],
-  "author": "akv.pavan@gmail.com",
+  "author": "pavan9991kumar@gmail.com",
   "license": "ISC",
   "devDependencies": { "test": ">=0.6.0" }
 }
